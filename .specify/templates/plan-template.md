@@ -31,7 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   **I. Modularity**: Does the design promote modularity and reusability?
+*   **II. Testing**: Does the plan account for comprehensive unit, integration, and (if applicable) end-to-end testing?
+*   **III. Documentation**: Are all new components, APIs, and complex logic planned to be documented?
+*   **VI. Security**: Have potential security vulnerabilities been assessed and mitigated in the design?
 
 ## Project Structure
 
