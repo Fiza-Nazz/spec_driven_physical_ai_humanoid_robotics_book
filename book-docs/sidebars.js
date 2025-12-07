@@ -24,8 +24,10 @@ const sidebars = {
       items: [
         'chapters/intro/index',
         'chapters/kinematics/index',
-        'chapters/robot-anatomy/index', // New chapter
-        'chapters/control-systems/index', // New chapter
+        'chapters/robot-anatomy/index',
+        'chapters/control-systems/index',
+        'chapters/distributed-robot-systems/index', // New
+        'chapters/system-architecture-for-ai/index', // New
       ],
     },
     {
@@ -39,8 +41,11 @@ const sidebars = {
       },
       items: [
         'chapters/sensing-perception/index',
-        'chapters/computer-vision/index', // New chapter
-        'chapters/machine-learning-robotics/index', // New chapter
+        'chapters/computer-vision/index',
+        'chapters/machine-learning-robotics/index',
+        'chapters/audio-signal-processing/index', // New
+        'chapters/speech-recognition-for-hri/index', // New
+        'chapters/sensor-fusion/index', // New
       ],
     },
     {
@@ -54,8 +59,10 @@ const sidebars = {
       },
       items: [
         'chapters/control-navigation/index',
-        'chapters/path-planning/index', // New chapter
-        'chapters/locomotion/index', // New chapter
+        'chapters/path-planning/index',
+        'chapters/locomotion/index',
+        'chapters/robot-task-planning/index', // New
+        'chapters/motion-control/index', // New
       ],
     },
     {
@@ -69,8 +76,11 @@ const sidebars = {
       },
       items: [
         'chapters/hri/index',
-        'chapters/robot-safety/index', // New chapter
-        'chapters/natural-language-processing/index', // New chapter
+        'chapters/robot-safety/index',
+        'chapters/natural-language-processing/index',
+        'chapters/llms-in-hri/index', // New
+        'chapters/context-aware-interaction/index', // New
+        'chapters/ui-ux-for-robotics/index', // New
       ],
     },
     {
@@ -84,8 +94,10 @@ const sidebars = {
       },
       items: [
         'chapters/advanced-future/index',
-        'chapters/exoskeletons-prosthetics/index', // New chapter
-        'chapters/swarm-robotics/index', // New chapter
+        'chapters/exoskeletons-prosthetics/index',
+        'chapters/swarm-robotics/index',
+        'chapters/generative-ai-for-robotics/index', // New
+        'chapters/robot-ethics-and-safety/index', // New
       ],
     },
   ],
