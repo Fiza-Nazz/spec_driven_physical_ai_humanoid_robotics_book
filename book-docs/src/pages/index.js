@@ -1,12 +1,14 @@
+// src/pages/index.js
+import React from "react";
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import BookDescriptionSection from '@site/src/components/BookDescription'; // Re-add the import
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Chatbot from '../components/Chatbot'; // ✅ Chatbot import added
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -38,10 +40,14 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+      
       <HomepageHeader />
+
       <main>
         <HomepageFeatures />
-        <BookDescriptionSection /> {/* Re-add the component rendering */}
+        <BookDescriptionSection /> {/* Existing section */}
+        {/* ✅ Chatbot component added at the bottom */}
+        <Chatbot />
       </main>
     </Layout>
   );
