@@ -24,6 +24,8 @@ const sidebars = {
       items: [
         'chapters/intro/index',
         'chapters/kinematics/index',
+        'chapters/robot-anatomy/index', // New chapter
+        'chapters/control-systems/index', // New chapter
       ],
     },
     {
@@ -37,6 +39,8 @@ const sidebars = {
       },
       items: [
         'chapters/sensing-perception/index',
+        'chapters/computer-vision/index', // New chapter
+        'chapters/machine-learning-robotics/index', // New chapter
       ],
     },
     {
@@ -50,6 +54,8 @@ const sidebars = {
       },
       items: [
         'chapters/control-navigation/index',
+        'chapters/path-planning/index', // New chapter
+        'chapters/locomotion/index', // New chapter
       ],
     },
     {
@@ -63,6 +69,8 @@ const sidebars = {
       },
       items: [
         'chapters/hri/index',
+        'chapters/robot-safety/index', // New chapter
+        'chapters/natural-language-processing/index', // New chapter
       ],
     },
     {
@@ -76,6 +84,8 @@ const sidebars = {
       },
       items: [
         'chapters/advanced-future/index',
+        'chapters/exoskeletons-prosthetics/index', // New chapter
+        'chapters/swarm-robotics/index', // New chapter
       ],
     },
   ],
